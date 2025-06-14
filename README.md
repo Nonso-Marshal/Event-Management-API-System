@@ -33,7 +33,6 @@ This system allows users to register for events, track attendance, and manage bo
       │   ├── __init__.py
       │   ├── users.py          # UserService for business logic
       │   ├── events.py         # EventService for business logic
-      │   ├── speakers.py       # SpeakerService for business logic
       │   ├── registrations.py   # RegistrationService for business logic
       ├── requirements.txt      # Project dependencies
       └── README.md             # Project documentation
