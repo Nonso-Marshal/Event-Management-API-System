@@ -20,12 +20,12 @@ Virtualenv (Optional, but recommended for isolating dependencies)
 
 ├── schemas/              # Pydantic models for request/response validation for Events, User, Registrations
 
-  └──users.py
-  
-  └──events.py
-  
-  └──registration.py
-  
+      └──users.py
+      
+      └──events.py
+      
+      └──registration.py
+      
 
 ├── routes/               # router for the entities: events, users, registration
 
