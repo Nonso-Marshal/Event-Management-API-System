@@ -22,7 +22,6 @@ This system allows users to register for events, track attendance, and manage bo
       │   ├── __init__.py
       │   ├── users.py          # Pydantic models for User
       │   ├── events.py         # Pydantic models for Event
-      │   ├── speakers.py       # Pydantic models for Speaker
       │   ├── registrations.py   # Pydantic models for Registration
       ├── routes/
       │   ├── __init__.py
