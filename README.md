@@ -28,7 +28,7 @@ This system allows users to register for events, track attendance, and manage bo
               └──users.py
               └──events.py
               └──registration.py
-      ├── models.py                       # Data models (e.g., event models)
+      ├── models.py                       # Data models (e.g., event models etc)
       ├── database.py                     # Database or in-memory data setup
       └── README.md   
 
