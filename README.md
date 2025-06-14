@@ -15,10 +15,10 @@ Virtualenv (Optional, but recommended for isolating dependencies)
 # Event-Management-API-System
 
 
-      ├── main.py               # Main FastAPI application file
+├── main.py                                 # Main FastAPI application file
       
       
-      ├── schemas/              # Pydantic models for request/response validation for Events, User, Registrations
+├── schemas/                                # Pydantic models for request/response validation for Events, User, Registrations
 
       └──users.py
       
@@ -27,7 +27,7 @@ Virtualenv (Optional, but recommended for isolating dependencies)
       └──registration.py
       
 
-      ├── routes/               # router for the entities: events, users, registration
+├── routes/                                 # router for the entities: events, users, registration
 
         └──users.py
         
@@ -36,7 +36,7 @@ Virtualenv (Optional, but recommended for isolating dependencies)
         └──registration.py
         
 
-      ├── services/             # app logics/crud operations for the entities: events, users, registration
+├── services/                               # app logics/crud operations for the entities: events, users, registration
 
         └──users.py
         
@@ -45,13 +45,13 @@ Virtualenv (Optional, but recommended for isolating dependencies)
         └──registration.py
   
 
-      ├── models.py             # Data models (e.g., event models)
+├── models.py                               # Data models (e.g., event models)
       
       
-      ├── database.py           # Database or in-memory data setup
+├── database.py                             # Database or in-memory data setup
       
       
-      └── README.md   
+└── README.md   
 
 
 
@@ -77,7 +77,7 @@ If you haven't already, clone the repository to your local machine:
 
 Create and activate a virtual environment:
 
-      # bash
+      **bash**
       Create a virtual environment
       * python -m venv venv
       
