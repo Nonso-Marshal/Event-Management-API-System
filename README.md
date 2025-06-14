@@ -14,11 +14,17 @@ Virtualenv (Optional, but recommended for isolating dependencies)
 
 │
 ├── main.py               # Main FastAPI application file
+
 ├── schemas/              # Pydantic models for request/response validation for Events, User, Registrations
+
 ├── routes/               # router for the entities: events, users, registration
+
 ├── services/             # app logics/crud operations for the entities: events, users, registration
+
 ├── models.py             # Data models (e.g., event models)
+
 ├── database.py           # Database or in-memory data setup
+
 └── README.md   
 
 
