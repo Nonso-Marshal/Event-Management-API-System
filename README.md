@@ -29,20 +29,20 @@ Virtualenv (Optional, but recommended for isolating dependencies)
 
 ├── routes/               # router for the entities: events, users, registration
 
-  └──users.py
-  
-  └──events.py
-  
-  └──registration.py
-  
+        └──users.py
+        
+        └──events.py
+        
+        └──registration.py
+        
 
 ├── services/             # app logics/crud operations for the entities: events, users, registration
 
-  └──users.py
-  
-  └──events.py
-  
-  └──registration.py
+        └──users.py
+        
+        └──events.py
+        
+        └──registration.py
   
 
 ├── models.py             # Data models (e.g., event models)
@@ -65,38 +65,38 @@ Follow these steps to set up and run the FastAPI application locally.
 
 If you haven't already, clone the repository to your local machine:
 
-* git clone (https://github.com/Nonso-Marshal/Event-Management-API-System.git)
-  
-* cd Event-Management-API-System
+      * git clone (https://github.com/Nonso-Marshal/Event-Management-API-System.git)
+        
+      * cd Event-Management-API-System
 
 
 # 2. Set Up a Virtual Environment (Optional but Recommended)
 
 Create and activate a virtual environment:
 
-bash
-Create a virtual environment
-* python -m venv venv
-
-Activate the virtual environment
-
-On Windows:
-
-* venv\Scripts\activate
-
-On macOS/Linux:
-
-* source venv/bin/activate
+      bash
+      Create a virtual environment
+      * python -m venv venv
+      
+      Activate the virtual environment
+      
+      On Windows:
+      
+      * venv\Scripts\activate
+      
+      On macOS/Linux:
+      
+      * source venv/bin/activate
 
 # 3. Run the FastAPI Application
 
 Start the FastAPI server using Uvicorn, an ASGI server implementation:
 
-bash
-
-* uvicorn main:app --reload
-
-main:app: Refers to the FastAPI app instance in main.py
+      bash
+      
+      * uvicorn main:app --reload
+      
+      main:app: Refers to the FastAPI app instance in main.py
 
 # 4. Access the API 
 
