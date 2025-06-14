@@ -1,7 +1,9 @@
 # Event-Management-API-System
+
 This system allows users to register for events, track attendance, and manage both event information and speaker details.
 
 **Prerequisites**
+
 Before you begin, ensure you have the following installed:
 Python 3.7+ (Download from python.org)
 pip (Python package manager, included with Python)
@@ -21,6 +23,7 @@ Virtualenv (Optional, but recommended for isolating dependencies)
 
 
 **Getting Started**
+
 Follow these steps to set up and run the FastAPI application locally.
 
 
@@ -30,7 +33,9 @@ Follow these steps to set up and run the FastAPI application locally.
 If you haven't already, clone the repository to your local machine:
 
 * git clone (https://github.com/Nonso-Marshal/Event-Management-API-System.git)
+  
 cd Event-Management-API-System
+
 
 **2. Set Up a Virtual Environment (Optional but Recommended)**
 
