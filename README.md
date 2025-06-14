@@ -91,15 +91,15 @@ Interactive API Docs: Open your browser and navigate to http://127.0.0.1:8000/do
 
 # 5. Example API Endpoints
 
-* GET /users: Retrieve all users.
-
-* POST /users: Create a new user.
-
-* GET /events: Retrieve all events.
-
-* POST /registrations: Register a user for an event.
-
-* Check the Swagger UI (/docs) for a complete list of endpoints and their schemas.
+      * GET /users: Retrieve all users.
+      
+      * POST /users: Create a new user.
+      
+      * GET /events: Retrieve all events.
+      
+      * POST /registrations: Register a user for an event.
+      
+      * Check the Swagger UI (/docs) for a complete list of endpoints and their schemas.
 
 
 # 6. Stopping the Server
