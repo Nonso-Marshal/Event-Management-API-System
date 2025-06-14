@@ -86,7 +86,7 @@ Start the FastAPI server using Uvicorn, an ASGI server implementation:
 
 # 4. Access the API 
 
-      API Root: Visit http://127.0.0.1:8000 to see the default response.
+      API Root: Visit http://127.0.0.1:8000 to see the root.
       
       Interactive API Docs: Open your browser and navigate to http://127.0.0.1:8000/docs to access the Swagger UI, where you can test API endpoints interactively.
 
