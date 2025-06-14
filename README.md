@@ -15,10 +15,10 @@ Virtualenv (Optional, but recommended for isolating dependencies)
 # Event-Management-API-System
 
 
-├── main.py               # Main FastAPI application file
-
-
-├── schemas/              # Pydantic models for request/response validation for Events, User, Registrations
+      ├── main.py               # Main FastAPI application file
+      
+      
+      ├── schemas/              # Pydantic models for request/response validation for Events, User, Registrations
 
       └──users.py
       
@@ -27,7 +27,7 @@ Virtualenv (Optional, but recommended for isolating dependencies)
       └──registration.py
       
 
-├── routes/               # router for the entities: events, users, registration
+      ├── routes/               # router for the entities: events, users, registration
 
         └──users.py
         
@@ -36,7 +36,7 @@ Virtualenv (Optional, but recommended for isolating dependencies)
         └──registration.py
         
 
-├── services/             # app logics/crud operations for the entities: events, users, registration
+      ├── services/             # app logics/crud operations for the entities: events, users, registration
 
         └──users.py
         
@@ -45,19 +45,21 @@ Virtualenv (Optional, but recommended for isolating dependencies)
         └──registration.py
   
 
-├── models.py             # Data models (e.g., event models)
+      ├── models.py             # Data models (e.g., event models)
+      
+      
+      ├── database.py           # Database or in-memory data setup
+      
+      
+      └── README.md   
 
-
-├── database.py           # Database or in-memory data setup
-
-
-└── README.md   
 
 
 
 # Getting Started
 
 Follow these steps to set up and run the FastAPI application locally.
+
 
 
 
@@ -70,39 +72,43 @@ If you haven't already, clone the repository to your local machine:
       * cd Event-Management-API-System
 
 
+
 # 2. Set Up a Virtual Environment (Optional but Recommended)
 
 Create and activate a virtual environment:
 
-      bash
+      # bash
       Create a virtual environment
       * python -m venv venv
       
       Activate the virtual environment
       
-      On Windows:
+      # On Windows:
       
       * venv\Scripts\activate
       
-      On macOS/Linux:
+      # On macOS/Linux:
       
       * source venv/bin/activate
+      
 
 # 3. Run the FastAPI Application
 
 Start the FastAPI server using Uvicorn, an ASGI server implementation:
 
-      bash
+      # bash
       
       * uvicorn main:app --reload
       
       main:app: Refers to the FastAPI app instance in main.py
+
 
 # 4. Access the API 
 
 API Root: Visit http://127.0.0.1:8000 to see the default response.
 
 Interactive API Docs: Open your browser and navigate to http://127.0.0.1:8000/docs to access the Swagger UI, where you can test API endpoints interactively.
+
 
 # 5. Example API Endpoints
 
