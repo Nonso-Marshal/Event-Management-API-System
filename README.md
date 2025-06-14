@@ -56,7 +56,7 @@ If you haven't already, clone the repository to your local machine:
 
 Create and activate a virtual environment:
 
-      bash
+      ^bash
       Create a virtual environment
       * python -m venv venv
       
