@@ -14,6 +14,30 @@ This system allows users to register for events, track attendance, and manage bo
 
 # Event-Management-API-System
 
+event_management/
+│
+├── main.py               # FastAPI app setup and router includes
+├── database.py           # In-memory lists for users, events, speakers, registrations
+├── schemas/
+│   ├── __init__.py
+│   ├── users.py          # Pydantic models for User
+│   ├── events.py         # Pydantic models for Event
+│   ├── speakers.py       # Pydantic models for Speaker
+│   ├── registrations.py   # Pydantic models for Registration
+├── routes/
+│   ├── __init__.py
+│   ├── users.py          # User-related API endpoints
+│   ├── events.py         # Event-related API endpoints
+│   ├── speakers.py       # Speaker-related API endpoints
+│   ├── registrations.py   # Registration-related API endpoints
+├── services/
+│   ├── __init__.py
+│   ├── users.py          # UserService for business logic
+│   ├── events.py         # EventService for business logic
+│   ├── speakers.py       # SpeakerService for business logic
+│   ├── registrations.py   # RegistrationService for business logic
+├── requirements.txt      # Project dependencies
+└── README.md             # Project documentation
 
       ├── main.py                         # Main FastAPI application file      
       ├── schemas/                        # Pydantic models for request/response validation for Events, User, Registrations
