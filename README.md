@@ -104,7 +104,7 @@ Interactive API Docs: Open your browser and navigate to http://127.0.0.1:8000/do
 
 # 6. Stopping the Server
 
-* To stop the server, press Ctrl+C in the terminal.
+      * To stop the server, press Ctrl+C in the terminal.
 
 
 
