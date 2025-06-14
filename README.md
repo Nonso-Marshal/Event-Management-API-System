@@ -39,24 +39,6 @@ This system allows users to register for events, track attendance, and manage bo
       ├── requirements.txt      # Project dependencies
       └── README.md             # Project documentation
 
-      ├── main.py                         # Main FastAPI application file      
-      ├── schemas/                        # Pydantic models for request/response validation for Events, User, Registrations
-            └──users.py
-            └──events.py
-            └──registration.py
-      ├── routes/                         # router for the entities: events, users, registration
-              └──users.py
-              └──events.py
-              └──registration.py
-      ├── services/                       # app logics/crud operations for the entities: events, users, registration
-              └──users.py
-              └──events.py
-              └──registration.py
-      ├── models.py                       # Data models (e.g., event models etc)
-      ├── database.py                     # Database or in-memory data setup
-      └── README.md   
-
-
 
 
 # Getting Started
