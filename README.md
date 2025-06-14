@@ -5,10 +5,10 @@ This system allows users to register for events, track attendance, and manage bo
 
 # Prerequisites
 
-Before you begin, ensure you have the following installed:
-Python 3.7+ (Download from python.org)
-pip (Python package manager, included with Python)
-Virtualenv (Optional, but recommended for isolating dependencies)
+      Before you begin, ensure you have the following installed:
+      Python 3.7+ (Download from python.org)
+      pip (Python package manager, included with Python)
+      Virtualenv (Optional, but recommended for isolating dependencies)
 
 
 
@@ -84,9 +84,9 @@ Start the FastAPI server using Uvicorn, an ASGI server implementation:
 
 # 4. Access the API 
 
-API Root: Visit http://127.0.0.1:8000 to see the default response.
-
-Interactive API Docs: Open your browser and navigate to http://127.0.0.1:8000/docs to access the Swagger UI, where you can test API endpoints interactively.
+      API Root: Visit http://127.0.0.1:8000 to see the default response.
+      
+      Interactive API Docs: Open your browser and navigate to http://127.0.0.1:8000/docs to access the Swagger UI, where you can test API endpoints interactively.
 
 
 # 5. Example API Endpoints
