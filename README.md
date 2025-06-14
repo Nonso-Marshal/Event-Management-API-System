@@ -6,9 +6,9 @@ This system allows users to register for events, track attendance, and manage bo
 # Prerequisites
 
       Before you begin, ensure you have the following installed:
-      Python 3.7+ (Download from python.org)
-      pip (Python package manager, included with Python)
-      Virtualenv (Optional, but recommended for isolating dependencies)
+      * Python 3.7+ (Download from python.org)
+      * pip (Python package manager, included with Python)
+      * Virtualenv (Optional, but recommended for isolating dependencies)
 
 
 
